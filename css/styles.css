@@ -30,8 +30,7 @@ max-width: 1470px;
 padding-left: 15px; 
 padding-right:  15px;
 margin:0,auto;
-width: 1158px
-display: flex;
+width: 1158px;
 }
 .visually-hidden {
     position: absolute;
@@ -43,6 +42,9 @@ display: flex;
     padding-bottom:25.5px;
     border-bottom: 1px solid #e7e9fc;
     
+}
+.header-container{
+    display: flex; 
 }
 .header-navigation {
     display: flex;
@@ -57,6 +59,7 @@ display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px
+    
 }
 .header-logo-black {
     color: #2e2f42;
@@ -66,8 +69,7 @@ display: flex;
 gap: 40px
 }
 .header-menu-item {
-    padding: 24px 0 ;
-}
+padding: 24px, 0, 24px; }
 .header-menu-link {
     color:  #2E2F42;
     font-weight: 500;
