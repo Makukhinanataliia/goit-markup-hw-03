@@ -68,9 +68,10 @@ margin: 0 auto;
 .header-menu-list {
 display: flex;
 gap: 40px
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-menu-item {
-
 }
 .header-menu-link {
     color:  #2E2F42;
@@ -78,7 +79,8 @@ gap: 40px
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
-    padding: 24px, 0, 24px;
+    
+
 }
 .header-menu-link:hover, .header-menu-link:focus{
     color:#404bbf;
@@ -92,6 +94,7 @@ gap: 40px
     gap: 40px;
 }
 .adress-menu-item {
+    
 }
 .adress-menu-link {
     color: #434455;
@@ -99,6 +102,7 @@ gap: 40px
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 .adress-menu-link:hover, .adress-menu-link:focus{
     color: #404bbf;     
