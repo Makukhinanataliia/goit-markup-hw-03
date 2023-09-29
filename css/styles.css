@@ -59,7 +59,7 @@ margin: 0 auto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px
+    margin-right: 76px;
     
 }
 .header-logo-black {
@@ -67,7 +67,7 @@ margin: 0 auto;
 }
 .header-menu-list {
 display: flex;
-gap: 40px
+gap: 40px;
 
 }
 .header-menu-item {
@@ -79,7 +79,7 @@ padding: 24px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
-    
+    padding: 24px 0;
 
 }
 .header-menu-link:hover, .header-menu-link:focus{
@@ -236,13 +236,14 @@ margin-bottom:72px;
     text-align: center;
 }
 /*?------------------------SECTION-4-PORTFOLIO--------------------------*/
-.portfolio {
+.portfolio{
     text-align: center;
     padding-top: 120px; 
     padding-bottom: 120px; 
 }
 .portfolio-container{
     max-width: 100%;
+    
 }
 .portfolio-item{
     font-size: 36px;
@@ -253,15 +254,14 @@ margin-bottom:72px;
     color: #2E2F42;
     margin-bottom:72px;
 }
-.portfolio-list {
-    display: flex
+.portfolio-list{
+    display: flex;
     flex-wrap: wrap; 
     column-gap: 24px;
     row-gap: 48px; 
 }
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
-
 }
 .project-card{
     padding: 32px 16px;
