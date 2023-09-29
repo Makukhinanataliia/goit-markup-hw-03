@@ -22,9 +22,7 @@ a{
 img {
     display: block;
 }
-address {
-    font-style: normal;
-}
+
 .container{
 max-width: 1470px;
 padding-left: 15px; 
@@ -39,13 +37,16 @@ margin: 0 auto;
 }
 /*?---------------------HEADER-------------------------*/
 .header {
-    padding-top:25.5px;
-    padding-bottom:25.5px;
+    padding-top:24px;
+    padding-bottom:24px;
+    padding-right:156px;
     border-bottom: 1px solid #e7e9fc;
-    
 }
 .header-container{
-    display: flex; 
+    display: flex;
+    gap: 322px; 
+    align-items: center; 
+
 }
 .header-navigation {
     display: flex;
@@ -90,8 +91,8 @@ padding: 24px 0;
     font-style: normal;
 }
 .adress-menu-list {
-    display: flex;
     gap: 40px;
+    display: flex;
 }
 .adress-menu-item {
     
@@ -122,8 +123,9 @@ padding: 24px 0;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;   
-    margin-bottom: 48px;
     max-width: 496px;
+    display: block;
+    margin: 48px auto;
 }
 .business-btn {
     color: #FFF;
@@ -137,6 +139,7 @@ padding: 24px 0;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     border: none; 
