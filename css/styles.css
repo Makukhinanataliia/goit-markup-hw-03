@@ -60,7 +60,6 @@ margin: 0 auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    
 }
 .header-logo-black {
     color: #2e2f42;
@@ -68,10 +67,10 @@ margin: 0 auto;
 .header-menu-list {
 display: flex;
 gap: 40px;
-    padding: 24px 0;
+
 }
 .header-menu-item {
-
+    padding: 24px 0;
 }
 .header-menu-link {
     color:  #2E2F42;
