@@ -136,6 +136,7 @@ padding: 188px 331px;
     margin: 0 auto;
     min-width: 169px;
     height: 56px;
+    border: none;
 }
 .business-btn:hover, .business-btn:focus{
     background-color:#404bbf;
