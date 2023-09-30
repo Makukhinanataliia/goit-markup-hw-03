@@ -66,10 +66,9 @@ margin: 0 auto;
 .header-menu-list {
 display: flex;
 gap: 40px;
-padding: 24px 0;
 }
 .header-menu-item {
-    padding: 24px 0;
+
 }
 .header-menu-link {
     color:  #2E2F42;
@@ -77,6 +76,7 @@ padding: 24px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
+    padding: 24px 0;
 }
 .header-menu-link:hover, .header-menu-link:focus{
     color:#404bbf;
@@ -193,8 +193,6 @@ padding: 120px 0;
 .team-container{
     background-color: #F4F4FD;
     max-width: 100%;
-    padding-top:120px;
-    padding-bottom:120px;
 }
 .team-titel{
     font-size: 36px;
