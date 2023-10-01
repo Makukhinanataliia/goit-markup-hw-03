@@ -112,7 +112,9 @@ gap: 40px;
     letter-spacing: 0.02em;   
     max-width: 496px;
     display: block;
-    margin: 48px auto;
+    margin-left: auto;
+    margin-bottom:48px;
+    margin-right: auto;
 }
 .business-btn {
     color: #FFF;
@@ -301,7 +303,6 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
-    margin-top:17.5px;
     max-width: 264px;
 }
 
